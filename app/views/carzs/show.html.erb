@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Mak:</strong>
+  <%= @carz.mak %>
+</p>
+
+<p>
+  <strong>Model:</strong>
+  <%= @carz.model %>
+</p>
+
+<p>
+  <strong>Year:</strong>
+  <%= @carz.year %>
+</p>
+
+<%= link_to 'Edit', edit_carz_path(@carz) %> |
+<%= link_to 'Back', carzs_path %>
